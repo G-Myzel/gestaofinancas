@@ -10,4 +10,4 @@ Requer Python 3:
 python main.py
 ```
 
-Descrição, categoria e valor são obrigatórios. O valor deve ser maior que zero; vírgula ou ponto podem ser usados como separador decimal. Os registros ficam no arquivo local `identifier.sqlite), criado ao executar o programa pela primeira vez.
+Descrição, categoria e valor são obrigatórios. O valor deve ser maior que zero; vírgula ou ponto podem ser usados como separador decimal. Os registros ficam no arquivo local `identifier.sqlite`, criado ao executar o programa pela primeira vez.

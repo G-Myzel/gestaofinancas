@@ -1,3 +1,4 @@
+import math
 import sqlite3
 from contextlib import closing
 from pathlib import Path
@@ -59,7 +60,7 @@ def converter(entrada):
         valor = float(entrada.strip().replace(",", "."))
     except (AttributeError, ValueError):
         return None
-    return valor if valor > 0 else None
+    return valor if math.isfinite(valor) and valor > 0 else None
 
 
 def menu():
